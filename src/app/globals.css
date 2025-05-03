@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  --background: #d5d6df;
+  --foreground: #292c38;
+  --font-mono: "Rubik Mono One", monospace;
+  --font-sans: "Rubik", sans-serif;
+  --color-primary: #cc5500;
+
+  @theme inline {
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --font-sans: "Rubik", sans-serif;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #292c38;
+    --foreground: #d5d6df;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+.header-mask::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(41, 44, 56, 1),
+    rgba(41, 44, 56, 1),
+    rgba(41, 44, 56, 0.8)
+  );
+  z-index: -1;
+}
+
+.text-hover-primary:hover {
+  color: var(--color-primary);
+}
+
+.popover-theme {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+.link-theme {
+  color: var(--foreground);
+  text-decoration: none;
+}
+
+.link-theme:hover {
+  color: var(--color-primary);
+}
+
+@media (prefers-color-scheme: light) {
+  .header-mask::before {
+    background: linear-gradient(
+      to bottom,
+      rgba(213, 214, 223, 1),
+      rgba(213, 214, 223, 1),
+      rgba(213, 214, 223, 0.8)
+    );
+  }
+}
