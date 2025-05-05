@@ -42,6 +42,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://lio-dev.fr",
   },
+  openGraph: {
+    title: "Lionel Dufour - Développeur Fullstack",
+    description:
+      "Développeur web et mobile passionné, spécialisé en JavaScript, React, React Native et Node.js. Découvrez mon portfolio présentant mes projets, mes compétences en développement front-end et back-end.",
+    url: "https://lio-dev.fr",
+    siteName: "Lionel Dufour - Développeur Fullstack",
+    images: [
+      {
+        url: "https://lio-dev.fr/og.png",
+        width: 800,
+        height: 600,
+        alt: "Lionel Dufour - Développeur Fullstack",
+      },
+    ],
+    locale: "fr-FR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
