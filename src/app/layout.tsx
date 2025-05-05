@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+
 import type { Metadata } from "next";
 import { Rubik, Rubik_Mono_One } from "next/font/google";
 
@@ -72,6 +74,7 @@ export default function RootLayout({
         className={`${rubik.variable} ${rubikMonoOne.className} antialiased`}
       >
         <AntdRegistry>{children}</AntdRegistry>
+        <Analytics />
       </body>
     </html>
   );
