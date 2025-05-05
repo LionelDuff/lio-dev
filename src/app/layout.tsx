@@ -52,10 +52,10 @@ export const metadata: Metadata = {
     siteName: "Lionel Dufour - Développeur Fullstack",
     images: [
       {
-        url: "https://lio-dev.fr/og.png",
-        width: 800,
-        height: 600,
-        alt: "Lionel Dufour - Développeur Fullstack",
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Image Open Graph de mon portfolio",
       },
     ],
     locale: "fr-FR",
