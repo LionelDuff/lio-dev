@@ -5,7 +5,6 @@ export const projects = [
     qrcode: "",
     description:
       "Application web permettant de rechercher des héros, de consulter leurs détails et de les ajouter à une liste de favoris.",
-    tools: [],
     stacks: [
       {
         name: "React",
@@ -39,7 +38,7 @@ export const projects = [
     url: "",
     qrcode: "/qrcode_MGF.png",
     description:
-      "Application mobile tout-en-un destinée aux coachs sportifs et à leurs clients, cette solution a été conçue pour simplifier et centraliser la gestion de leur activité. Elle permet aux professionnels du sport de gérer efficacement leurs plannings, de créer des programmes d'entraînement personnalisés, de guider les séances à l’aide de vidéos explicatives, de suivre les performances de leurs clients, d’automatiser la facturation et les paiements, et de faciliter la communication avec leur clientèle.",
+      "Application mobile tout-en-un destinée aux coachs sportifs et à leurs clients, cette solution a été conçue pour simplifier et centraliser la gestion de leur activité. Projet développé avec Vincent Silvestri dans le cadre de ma formation La Capsule en 2025.",
     stacks: [
       {
         name: "React Native",
@@ -78,5 +77,38 @@ export const projects = [
     github: "",
     githubFrontend: "https://github.com/vincent-devFullStack/MGF-frontend.git",
     githubBackend: "https://github.com/vincent-devFullStack/MGF-backend.git",
+  },
+  {
+    name: "Mon Portfolio",
+    url: "https://www.lio-dev.fr/",
+    qrcode: "",
+    description:
+      "Portfolio personnel présentant mes projets et mes compétences en développement web et mobile.",
+    stacks: [
+      {
+        name: "TypeScript",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "React",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
+      },
+      {
+        name: "Next.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      },
+      {
+        name: "Ant Design",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antdesign/antdesign-original.svg",
+      },
+    ],
+    pictures: ["/capture_liodev.png", "/capture_liodev_light.png"],
+    github: "https://github.com/LionelDuff/lio-dev.git",
+    githubFrontend: "",
+    githubBackend: "",
   },
 ];

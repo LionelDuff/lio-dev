@@ -41,6 +41,7 @@ export const metadata: Metadata = {
     "Développement Front-end",
     "Développement Back-end",
   ],
+  metadataBase: new URL("https://lio-dev.fr"),
   alternates: {
     canonical: "https://lio-dev.fr",
   },
