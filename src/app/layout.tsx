@@ -1,5 +1,7 @@
 import { Analytics } from "@vercel/analytics/react";
 
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import type { Metadata } from "next";
 import { Rubik, Rubik_Mono_One } from "next/font/google";
 
@@ -76,6 +78,7 @@ export default function RootLayout({
       >
         <AntdRegistry>{children}</AntdRegistry>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
