@@ -20,9 +20,14 @@ export default function Welcome() {
           projets numériques.
         </p>
         <p className="xl:text-xl text-lg mb-4">
-          Admis au Mastère Big Data & IA de l’IPSSI pour la rentrée d’octobre
-          2025, je suis activement à la recherche d’une alternance sur 2 ans
-          pour relever de nouveaux défis en entreprise.
+          Je suis particulièrement passionné par les domaines de la data et de
+          l’intelligence artificielle, secteurs dans lesquels je souhaite
+          vivement m’investir. Actuellement en recherche active d’une
+          opportunité en alternance (sur 2 ans) ou d’un emploi à temps plein, je
+          suis enthousiaste à l’idée de relever de nouveaux défis
+          professionnels. Mon objectif est d’approfondir mes compétences tout en
+          contribuant concrètement à des projets stimulants et innovants en
+          entreprise.
         </p>
       </div>
       <div className="flex items-center justify-center lg:w-1/2 w-full hover:scale-105 transition-transform duration-300">
