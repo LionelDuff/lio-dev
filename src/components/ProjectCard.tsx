@@ -167,13 +167,13 @@ export default function ProjectCard({ item }: { item: Item }) {
           </div>
         </div>
         <button
-          className="absolute left-12 top-1/2 transform rounded-xl hover:bg-[rgba(204,85,0,0.7)] mx-1 -mt-[10px] -translate-y-1/2 bg-[rgba(0,0,0,0.8)] text-white p-2 group"
+          className="absolute left-12 top-1/2 transform rounded-xl hover:bg-[rgba(204,85,0,0.7)] mx-1 -mt-[10px] -translate-y-1/2 bg-[rgba(0,0,0,0.8)] text-white p-2 group cursor-pointer"
           onClick={prevSlide}
         >
           <LeftOutlined />
         </button>
         <button
-          className="absolute right-12 top-1/2 transform rounded-xl hover:bg-[rgba(204,85,0,0.5)] mx-1 -mt-[10px] -translate-y-1/2 bg-[rgba(0,0,0,0.8)] text-white p-2 group"
+          className="absolute right-12 top-1/2 transform rounded-xl hover:bg-[rgba(204,85,0,0.5)] mx-1 -mt-[10px] -translate-y-1/2 bg-[rgba(0,0,0,0.8)] text-white p-2 group cursor-pointer"
           onClick={nextSlide}
         >
           <RightOutlined />
