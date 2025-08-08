@@ -79,6 +79,35 @@ export const projects = [
     githubBackend: "https://github.com/vincent-devFullStack/MGF-backend.git",
   },
   {
+    name: "InvenTree",
+    url: "https://inven-tree-frontend.vercel.app/",
+    qrcode: "",
+    description:
+      "Interface web simple et intuitive pour visualiser et gérer des produits.",
+    stacks: [
+      {
+        name: "React",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg",
+      },
+      {
+        name: "Node.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+      },
+      {
+        name: "Express",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+      },
+    ],
+    pictures: [
+      "/Capture_inventree_1.png",
+      "/Capture_inventree_2.png",
+      "/Capture_inventree_3.png",
+    ],
+    github: "",
+    githubFrontend: "https://github.com/LionelDuff/InvenTree-frontend.git",
+    githubBackend: "https://github.com/LionelDuff/InvenTree-backend.git",
+  },
+  {
     name: "Mon Portfolio",
     url: "https://www.lio-dev.fr/",
     qrcode: "",
